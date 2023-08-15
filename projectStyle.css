@@ -1,0 +1,67 @@
+body{
+    background-image: url('ContactBackground.webp');
+font-size: 30px;
+}
+.card-side.back {
+transform: rotateY(-180deg);
+background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+}
+.card-side.front {
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #95eff1 20%,  #2ea3bd 40%,#2a43d1 100% );
+}
+
+.card:hover .card-side.front {
+transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back {
+transform: rotateY(0deg);
+}
+.card {
+perspective: 150rem;
+margin: 2em auto;
+height: 5rem;
+max-width: 300px;
+background: none;
+}
+.card-side {
+height: 15rem;
+border-radius: 15px;
+transition: all 0.8s ease;
+backface-visibility: hidden;
+position: absolute;
+width: 80%;
+padding: 2rem;
+}
+#first{
+   margin-left: 10px;
+   margin-top: 50px;
+}
+#second{
+    margin-left: 380px;
+    margin-top: -140px;
+}
+#third{
+    margin-left: 750px;
+    margin-top: -140px;
+}
+a{
+    font-size: 20px;
+    float:right;
+    text-decoration: none;
+    border: 1px;
+    border-radius: 0%;
+    width: 15px;
+    margin-right: 45px;
+    margin-top: 13%;
+    padding-left: 10px;
+    padding-right:50px ;
+}
+a:hover{
+    font-size: 25px;
+    background-image: linear-gradient(to
+        right,#E7B10A 0%,#fc4646 100%);
+    text-decoration: underline;
+}

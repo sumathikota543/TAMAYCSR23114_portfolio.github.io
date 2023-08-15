@@ -1,0 +1,21 @@
+body{
+    background-image: url('ContactBackground.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+a{
+    float:right;
+    text-decoration: none;
+    border: 1px;
+    width: 15px;
+    padding-left: 10px;
+    padding-right:50px ;
+}
+a:hover{
+    font-size: 20px;
+    text-decoration:underline;
+    background-image: linear-gradient(to
+        right,#E7B10A 0%,#fc4646 100%);
+    animation: backwards;
+}

@@ -1,0 +1,33 @@
+body{
+    background-image: url('ContactBackground.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+a{
+    float:right;
+    text-decoration: none;
+    border: 1px;
+    width: 15px;
+    margin-right: 45px;
+    padding-left: 10px;
+    padding-right:50px ;
+}
+a:hover{
+    font-size: 20px;
+    text-decoration:underline;
+    background-image: linear-gradient(to
+        right,#E7B10A 0%,#fc4646 100%);
+    animation: backwards;
+}
+#course{
+    width: 25%;
+    background-color: rgb(233, 37, 174);
+    border-radius: 100px;
+}
+.edu{
+    margin-top: -70px;
+    width: 20%;
+    border-radius: 100px;
+    display: inline-block;
+}
